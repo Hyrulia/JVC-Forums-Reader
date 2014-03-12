@@ -1,3 +1,5 @@
-JVC Forums Reader est une application Android pour jeuxvideo.com, qui ne fonctionnera plus à partir du 01/04/14 à cause du changement du site entier (projet Respawn)
-Toute personne qui souhaiterai refaire fonctionner l'appli avec le futur site à venir peut contribuer à ce projet (dont le code nécéssite d'être refait en grande partie)
-Pour ceux qui sont intéressés, contactez-moi par mail pour plus d'informations (g1mat000@gmail.com).
+JVC Forums Reader est une application Android pour jeuxvideo.com, qui ne fonctionnera plus ï¿½ partir du 01/04/14 ï¿½ cause du changement du site entier (projet Respawn)
+
+Toute personne qui souhaiterai refaire fonctionner l'appli avec le futur site ï¿½ venir peut contribuer ï¿½ ce projet (dont le code nï¿½cï¿½ssite d'ï¿½tre refait en grande partie)
+
+Pour ceux qui sont intï¿½ressï¿½s, contactez-moi par mail pour plus d'informations (g1mat000@gmail.com).

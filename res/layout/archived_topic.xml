@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ssv="http://schemas.android.com/apk/res/com.forum.jvcreader" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+    <com.forum.jvcreader.widgets.SwipeableScrollViewer android:id="@+id/topicSwipeableScrollViewer" android:layout_width="fill_parent" android:layout_height="fill_parent" ssv:default_screen="0">
+        <LinearLayout android:id="@+id/topicViewLayout" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+            <ScrollView android:layout_width="match_parent" android:fadingEdge="none" android:id="@+id/topicScrollView" android:layout_weight="1" android:layout_height="0dp">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:text="@string/genericLoading" android:textStyle="bold" android:layout_height="wrap_content" android:gravity="center" android:textColor="@color/jvcTopicName" android:layout_width="match_parent" android:id="@+id/topicNameTextView" android:textAppearance="?android:attr/textAppearanceMedium" android:minHeight="64dp"></TextView>
+                        <View android:layout_width="match_parent" android:layout_height="1px" android:background="?android:attr/listDivider" />
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical" >
+                            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp">
+                                <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                                    <ImageButton android:layout_width="0dp" android:onClick="topicFirstPageButtonClick" android:layout_height="match_parent" android:id="@+id/topicFirstPageButton" android:layout_weight="1" android:background="@android:drawable/list_selector_background" android:textColor="?android:attr/textColorPrimary"></ImageButton>
+                                    <View android:layout_width="1px" android:layout_height="match_parent" android:background="?android:attr/listDivider" />
+                                    <ImageButton android:id="@+id/topicPreviousPageButton" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:background="@android:drawable/list_selector_background" android:onClick="topicPreviousPageButtonClick" android:textColor="?android:attr/textColorPrimary" ></ImageButton>
+                                    <View android:layout_width="1px" android:layout_height="match_parent" android:background="?android:attr/listDivider" />
+                                    <ImageButton android:layout_width="0dp" android:onClick="topicNextPageButtonClick" android:layout_height="match_parent" android:id="@+id/topicNextPageButton" android:layout_weight="1" android:background="@android:drawable/list_selector_background" android:textColor="?android:attr/textColorPrimary"></ImageButton>
+                                    <View android:layout_width="1px" android:layout_height="match_parent" android:background="?android:attr/listDivider" />
+                                    <ImageButton android:layout_width="0dp" android:onClick="topicLastPageButtonClick" android:layout_height="match_parent" android:id="@+id/topicLastPageButton" android:layout_weight="1" android:background="@android:drawable/list_selector_background" android:textColor="?android:attr/textColorPrimary"></ImageButton>
+                                </LinearLayout>
+                                <View android:layout_width="1px" android:layout_height="match_parent" android:background="?android:attr/listDivider" />
+                                <LinearLayout android:layout_width="match_parent" android:layout_gravity="center" android:layout_height="match_parent" android:layout_weight="1">
+                                    <Button android:onClick="topicGoToPageButtonClick" android:layout_gravity="center" android:layout_height="match_parent" android:id="@+id/topicGoToPageButton" android:layout_width="match_parent" android:text="@string/topicGoToPage" android:background="@android:drawable/list_selector_background" android:textColor="?android:attr/textColorPrimary"></Button>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@+id/topicLastSeparator" android:layout_width="match_parent" android:layout_height="1px" android:background="?android:attr/listDivider" />
+                    </LinearLayout>
+                    <LinearLayout android:id="@+id/topicLayout" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                    <LinearLayout android:id="@+id/topicBottomNavigationLayout" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <View android:layout_width="match_parent" android:layout_height="1px" android:background="?android:attr/listDivider" />
+                        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp">
+                            <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                                <ImageButton android:layout_width="0dp" android:onClick="topicFirstPageButtonClick" android:layout_height="match_parent" android:id="@+id/topicBottomFirstPageButton" android:layout_weight="1" android:background="@android:drawable/list_selector_background" android:textColor="?android:attr/textColorPrimary"></ImageButton>
+                                <View android:layout_width="1px" android:layout_height="match_parent" android:background="?android:attr/listDivider" />
+                                <ImageButton android:id="@+id/topicBottomPreviousPageButton" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:background="@android:drawable/list_selector_background" android:onClick="topicPreviousPageButtonClick" android:textColor="?android:attr/textColorPrimary" ></ImageButton>
+                                <View android:layout_width="1px" android:layout_height="match_parent" android:background="?android:attr/listDivider" />
+                                <ImageButton android:layout_width="0dp" android:onClick="topicNextPageButtonClick" android:layout_height="match_parent" android:id="@+id/topicBottomNextPageButton" android:layout_weight="1" android:background="@android:drawable/list_selector_background" android:textColor="?android:attr/textColorPrimary"></ImageButton>
+                                <View android:layout_width="1px" android:layout_height="match_parent" android:background="?android:attr/listDivider" />
+                                <ImageButton android:layout_width="0dp" android:onClick="topicLastPageButtonClick" android:layout_height="match_parent" android:id="@+id/topicBottomLastPageButton" android:layout_weight="1" android:background="@android:drawable/list_selector_background" android:textColor="?android:attr/textColorPrimary"></ImageButton>
+                            </LinearLayout>
+                            <View android:layout_width="1px" android:layout_height="match_parent" android:background="?android:attr/listDivider" />
+                            <Button android:layout_weight="1" android:onClick="topicGoToPageButtonClick" android:layout_gravity="center" android:layout_height="match_parent" android:id="@+id/topicBottomGoToPageButton" android:layout_width="match_parent" android:text="@string/topicGoToPage" android:background="@android:drawable/list_selector_background" android:textColor="?android:attr/textColorPrimary"></Button>
+                        </LinearLayout>
+                        <View android:layout_width="match_parent" android:layout_height="1px" android:background="?android:attr/listDivider" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </com.forum.jvcreader.widgets.SwipeableScrollViewer>
+</LinearLayout>

@@ -1,0 +1,63 @@
+<resources>
+    <string-array name="faqQuestions">
+        <item>"J'ai SFR, pourquoi mon 3G ne marche pas ?"</item>
+        <item>"Comment voir la CDV d'un pseudo, faire une DDB, etc... ?"</item>
+        <item>"Comment naviguer en plein milieu d'un topic/forum ?"</item>
+        <item>"J'ai beaucoup de \"formulaires expirés\" quand je poste en \"via mobile\", comment corriger ça ?"</item>
+        <item>"À quoi sert le bouton \"Supprimer les fichiers invalides\" ?"</item>
+    </string-array>
+
+    <string-array name="faqAnswers">
+        <item>"SFR bloque l'accès à certaines données en fonction de votre forfait et de votre APN.\nIl n'y a pas de solution pour le moment."</item>
+        <item>"Pour ouvrir les options d'un post il suffit de cliquer longtemps sur le pseudo en question."</item>
+        <item>"Pour changer de page sur un écran vous pouvez faire un slide de l'extrême droite vers l'extrême gauche pour aller à la page suivante et inverse."</item>
+        <item>"Pour l'instant il n'y a aucun recours à ce bug, si vous ne voulez plus avoir ce message décochez l'option \"via mobile\"."</item>
+        <item>"Si vous quittez l'application en plein téléchargement d'un topic, ses fichiers enregistrés resteront dans la mémoire et seront inutilisés.\nCe bouton est donc la pour nettoyer le dossier en cas de mauvaise manipulation."</item>
+    </string-array>
+
+    <string-array name="creditedPseudos">
+        <item>AlexeiVolkoff</item>
+        <item>Ashton</item>
+        <item>Blastdoor</item>
+        <item>br0dy</item>
+        <item>Canonisation</item>
+        <item>CaptainBro</item>
+        <item>Cheese-fake</item>
+        <item>Chupakabrak</item>
+        <item>DarkoDonnie</item>
+        <item>DetectiveCoran</item>
+        <item>Diaruga98</item>
+        <item>djay_38</item>
+        <item>eCaravanier</item>
+        <item>Emin3ms</item>
+        <item>Falysix</item>
+        <item>GalaxyGio</item>
+        <item>GiBoss</item>
+        <item>GovDenim</item>
+        <item>]Hello[</item>
+        <item>Kakulukian</item>
+        <item>LaProvence</item>
+        <item>Leader-Price</item>
+        <item>Linkarb</item>
+        <item>[Link_cartoon]</item>
+        <item>Merourou</item>
+        <item>-mimicicu-</item>
+        <item>Moderatonche</item>
+        <item>MrGreez94</item>
+        <item>NoLyyfe</item>
+        <item>Oxime</item>
+        <item>Paul-Defes</item>
+        <item>Peach-Party</item>
+        <item>[plouf]</item>
+        <item>Rom16</item>
+        <item>Serdaigle</item>
+        <item>[sf]</item>
+        <item>Shinigota</item>
+        <item>SnowHell</item>
+        <item>Su-25</item>
+        <item>TheTimeCry</item>
+        <item>Totamot</item>
+        <item>valbonjv</item>
+        <item>Yoshi74</item>
+    </string-array>
+</resources>

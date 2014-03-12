@@ -1,0 +1,256 @@
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="@drawable/jvc_post_box1" android:layout_height="match_parent" android:orientation="vertical" android:layout_width="match_parent">
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="250dp" android:gravity="center">
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="250dp" android:gravity="center">
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="250dp" android:gravity="center">
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="250dp" android:gravity="center">
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="250dp" android:gravity="center">
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="250dp" android:gravity="center">
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="250dp" android:gravity="center">
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="250dp" android:gravity="center">
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="250dp" android:gravity="center">
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="250dp" android:gravity="center">
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="250dp" android:gravity="center">
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="250dp" android:gravity="center">
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="250dp" android:gravity="center">
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="250dp" android:gravity="center">
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="250dp" android:gravity="center">
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="250dp" android:gravity="center">
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="250dp" android:gravity="center">
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="250dp" android:gravity="center">
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+            <FrameLayout android:background="@drawable/jvc_smiley_clickable_box" android:layout_height="64px" android:layout_width="0dp" android:layout_weight="1">
+            	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></ImageView>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

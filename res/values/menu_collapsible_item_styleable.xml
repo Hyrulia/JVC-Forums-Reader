@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<resources> 
+    <declare-styleable name="MenuCollapsibleItem"> 
+        <attr name="itemText" format="string" />
+        <attr name="itemTextColor" format="color" />
+        <attr name="itemTextColorDisabled" format="color" />
+    </declare-styleable>
+</resources>

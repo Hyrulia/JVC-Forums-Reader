@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          android:versionCode="11"
+          android:versionName="1.4" package="com.forum.jvcreader">
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="9"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <application android:name=".MainApplication" android:icon="@drawable/app_icon_alexeivolkoff"
+                 android:label="@string/app_name">
+        <activity android:name="com.forum.jvcreader.LoginActivity" android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.forum.jvcreader.MyAccountsActivity"/>
+        <activity android:name="com.forum.jvcreader.MainActivity"/>
+        <activity android:name="com.forum.jvcreader.UpdatedTopicsActivity"/>
+        <activity android:name="com.forum.jvcreader.ForumListActivity"/>
+        <activity android:name="com.forum.jvcreader.FavoriteForumsActivity"/>
+        <activity android:name="com.forum.jvcreader.TopForumsActivity"/>
+        <activity android:name="com.forum.jvcreader.FavoriteTopicsActivity"/>
+        <activity android:name="com.forum.jvcreader.ForumActivity"
+                  android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.forum.jvcreader.TopicActivity"
+                  android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.forum.jvcreader.NewDdbActivity"
+                  android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.forum.jvcreader.ArchivedTopicActivity"/>
+        <activity android:name="com.forum.jvcreader.ArchivedTopicsActivity"/>
+        <activity android:name="com.forum.jvcreader.PreferencesActivity"
+                  android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.forum.jvcreader.PreferencesPseudoBlacklistActivity"
+                  android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.forum.jvcreader.PreferencesSignatureActivity"
+                  android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.forum.jvcreader.SearchForumJVActivity"/>
+        <activity android:name="com.forum.jvcreader.SearchGameForumActivity"/>
+        <activity android:name="com.forum.jvcreader.InfoActivity"/>
+        <activity android:name="com.forum.jvcreader.CdvActivity"/>
+        <activity android:name="com.forum.jvcreader.PmActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.forum.jvcreader.PmBoxActivity"/>
+        <activity android:name="com.forum.jvcreader.PmTopicActivity"
+                  android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.forum.jvcreader.PmNewActivity" android:label="@string/pmNewActivityLabel"
+                  android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.forum.jvcreader.KickInterfaceActivity"/>
+        <receiver android:name="com.forum.jvcreader.services.CheckPrivateMessagesAlarmReceiver"/>
+        <receiver android:name="com.forum.jvcreader.services.PmReceivedNotifierReceiver">
+            <intent-filter android:priority="0">
+                <action android:name="com.forum.jvcreader.action.UPDATE_PM"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.forum.jvcreader.services.CheckUpdatedTopicsAlarmReceiver"/>
+        <receiver android:name=".services.UpdatedTopicsNotifierReceiver">
+            <intent-filter android:priority="0">
+                <action android:name="com.forum.jvcreader.action.UPDATE_UPDATED_TOPICS"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:name="com.forum.jvcreader.jvc.JvcArchiveTopicService"/>
+    </application>
+</manifest>

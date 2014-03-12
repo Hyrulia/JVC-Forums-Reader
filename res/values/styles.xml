@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="FullScreenNoTitleDialogTheme" parent="@android:style/Theme.Dialog">
+		<item name="android:windowBackground">@drawable/dummy_box</item>
+		<item name="android:windowIsFloating">true</item>
+		<item name="android:windowNoTitle">true</item>
+	</style>
+	
+	<style name="FullScreenDialogTheme" parent="@android:style/Theme.Dialog">
+		<item name="android:windowIsFloating">true</item>
+		<item name="android:windowNoTitle">false</item>
+	</style>
+	
+	<style name="BlackTheme" parent="@android:style/Theme.Black">
+        <!-- <item name="android:windowTitleSize">58dp</item> -->
+    </style>
+	
+	<style name="LightTheme" parent="@android:style/Theme.Light">
+        <!-- <item name="android:windowTitleSize">58dp</item> -->
+    </style>
+	
+	<style name="HoloDarkTheme" parent="@style/BlackTheme" />
+	
+	<style name="HoloLightTheme" parent="@style/LightTheme" />
+	
+    <style name="MenuTopicItemSeparatorJvc">
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/jvcTopicSeparator</item>
+    </style>
+    
+    <style name="MenuTopicItemSeparatorNormal">
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+</resources>

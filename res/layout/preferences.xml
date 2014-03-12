@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:mci= "http://schemas.android.com/apk/res/com.forum.jvcreader" android:paddingLeft="4dp" android:paddingRight="4dp" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingTop="8dp">
+		<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+			<TextView android:text="@string/prefsUpdatedTopics" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_vertical" android:minHeight="32dp" android:paddingLeft="4dp" android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@android:color/darker_gray" android:textStyle="bold" />
+			<View android:layout_width="wrap_content" android:layout_height="2px" android:background="@android:color/darker_gray" />
+		</LinearLayout>
+    	<LinearLayout android:layout_height="wrap_content" android:background="@android:drawable/list_selector_background" android:layout_width="match_parent" android:minHeight="?android:attr/listPreferredItemHeight" android:paddingLeft="4dp" android:paddingRight="4dp">
+    			<TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_gravity="center_vertical" android:layout_marginRight="10dp" android:layout_weight="1" android:text="@string/prefsReceiveNotificationOnTopicUpdated" android:textAppearance="?android:attr/textAppearanceMedium" />
+				<ToggleButton android:id="@+id/prefsReceiveNotificationOnTopicUpdatedToggleButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_vertical" />
+    	</LinearLayout>
+    	<View android:background="?android:attr/listDivider" android:layout_height="wrap_content" android:layout_width="match_parent"></View>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@android:drawable/list_selector_background" android:minHeight="?android:attr/listPreferredItemHeight" android:paddingLeft="4dp" android:paddingRight="4dp">
+            <TextView android:layout_weight="1" android:text="@string/prefsCheckUpdatedTopics" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="0dp" android:layout_marginRight="10dp" android:layout_gravity="center"></TextView>
+        	<ToggleButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center" android:id="@+id/prefsCheckUpdatedTopicsToggleButton"></ToggleButton>
+        </LinearLayout>
+        <View android:layout_width="match_parent" android:layout_height="wrap_content" android:background="?android:attr/listDivider" />
+        <com.forum.jvcreader.widgets.MenuCollapsibleItem android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/prefsUpdatedTopicsCheckDelayCollapsibleItem" mci:itemText="@string/prefsUpdatedTopicsCheckDelay" mci:itemTextColor="?android:attr/textColorPrimary" mci:itemTextColorDisabled="?android:attr/textColorSecondary" android:background="@android:drawable/list_selector_background" android:minHeight="?android:attr/listPreferredItemHeight" android:paddingLeft="4dp" android:paddingRight="4dp" android:gravity="center" />
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical">
+			<TextView android:text="@string/prefsPrivateMessages" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:minHeight="32dp" android:paddingLeft="4dp" android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@android:color/darker_gray" android:textStyle="bold" />
+			<View android:layout_width="wrap_content" android:layout_height="2px" android:background="@android:color/darker_gray" />
+		</LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@android:drawable/list_selector_background" android:minHeight="?android:attr/listPreferredItemHeight" android:paddingLeft="4dp" android:paddingRight="4dp">
+            <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_gravity="center" android:layout_height="wrap_content" android:text="@string/prefsReceiveNotificationOnPrivateMessage" android:layout_marginRight="10dp" android:layout_width="0dp" android:layout_weight="1"></TextView>
+            <ToggleButton android:id="@+id/prefsReceiveNotificationOnPrivateMessageToggleButton" android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content"></ToggleButton>
+        </LinearLayout>
+        <View android:background="?android:attr/listDivider" android:layout_height="wrap_content" android:layout_width="match_parent"></View>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@android:drawable/list_selector_background" android:minHeight="?android:attr/listPreferredItemHeight" android:paddingLeft="4dp" android:paddingRight="4dp">
+            <TextView android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="0dp" android:text="@string/prefsCheckPrivateMessages" android:layout_marginRight="10dp" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_gravity="center"></TextView>
+            <ToggleButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center" android:id="@+id/prefsCheckPrivateMessagesToggleButton"></ToggleButton>
+        </LinearLayout>
+        <View android:layout_width="match_parent" android:layout_height="wrap_content" android:background="?android:attr/listDivider" />
+        <com.forum.jvcreader.widgets.MenuCollapsibleItem android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/prefsPrivateMessagesCheckDelayCollapsibleItem" mci:itemText="@string/prefsPrivateMessagesCheckDelay" mci:itemTextColor="?android:attr/textColorPrimary" mci:itemTextColorDisabled="?android:attr/textColorSecondary" android:background="@android:drawable/list_selector_background" android:minHeight="?android:attr/listPreferredItemHeight" android:paddingLeft="4dp" android:paddingRight="4dp" android:gravity="center" />
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical">
+			<TextView android:text="@string/forumsNavigation" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:minHeight="32dp" android:paddingLeft="4dp" android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@android:color/darker_gray" android:textStyle="bold" />
+			<View android:layout_width="wrap_content" android:layout_height="2px" android:background="@android:color/darker_gray" />
+		</LinearLayout>
+        <TextView android:text="@string/prefsPseudoBlacklistItem" android:layout_height="wrap_content" android:layout_width="match_parent" android:background="@android:drawable/list_selector_background" android:clickable="true" android:onClick="prefsPseudoBlacklistItemClick" android:textAppearance="?android:attr/textAppearanceMedium" android:gravity="center_vertical" android:paddingLeft="4dp" android:minHeight="?android:attr/listPreferredItemHeight" />
+        <View android:layout_height="wrap_content" android:layout_width="match_parent" android:background="?android:attr/listDivider"></View>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@android:drawable/list_selector_background" android:minHeight="?android:attr/listPreferredItemHeight" android:paddingLeft="4dp" android:paddingRight="4dp">
+            <TextView android:text="@string/prefsShowSmileysInTopicTitles" android:layout_gravity="center" android:layout_weight="1" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_marginRight="10dp" android:layout_height="wrap_content" android:layout_width="0dp"></TextView>
+            <ToggleButton android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/prefsShowSmileysInTopicTitlesToggleButton"></ToggleButton>
+        </LinearLayout>
+        <View android:background="?android:attr/listDivider" android:layout_height="wrap_content" android:layout_width="match_parent"></View>
+        <LinearLayout android:layout_height="wrap_content" android:background="@android:drawable/list_selector_background" android:layout_width="match_parent" android:minHeight="?android:attr/listPreferredItemHeight" android:paddingLeft="4dp" android:paddingRight="4dp">
+    			<TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_gravity="center_vertical" android:layout_marginRight="10dp" android:layout_weight="1" android:text="@string/prefsCheckPostsDuringAutomaticBrowsing" android:textAppearance="?android:attr/textAppearanceMedium" />
+				<ToggleButton android:id="@+id/prefsCheckPostsDuringAutomaticBrowsingToggleButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_vertical" />
+    	</LinearLayout>
+    	<View android:background="?android:attr/listDivider" android:layout_height="wrap_content" android:layout_width="match_parent"></View>
+        <com.forum.jvcreader.widgets.MenuCollapsibleItem android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/prefsAutomaticBrowsingCheckDelayCollapsibleItem" mci:itemText="@string/prefsAutomaticBrowsingCheckDelay" mci:itemTextColor="?android:attr/textColorPrimary" mci:itemTextColorDisabled="?android:attr/textColorSecondary" android:background="@android:drawable/list_selector_background" android:minHeight="?android:attr/listPreferredItemHeight" android:paddingLeft="4dp" android:paddingRight="4dp" android:gravity="center" />
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical">
+			<TextView android:text="@string/creatingTopicsAndPosts" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:minHeight="32dp" android:paddingLeft="4dp" android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@android:color/darker_gray" android:textStyle="bold" />
+			<View android:layout_width="wrap_content" android:layout_height="2px" android:background="@android:color/darker_gray" />
+		</LinearLayout>
+        <TextView android:text="@string/prefsSignatureItem" android:layout_height="wrap_content" android:layout_width="match_parent" android:background="@android:drawable/list_selector_background" android:clickable="true" android:onClick="prefsSignatureItemClick" android:textAppearance="?android:attr/textAppearanceMedium" android:gravity="center_vertical" android:paddingLeft="4dip" android:minHeight="?android:attr/listPreferredItemHeight" />
+        <View android:layout_height="wrap_content" android:layout_width="match_parent" android:background="?android:attr/listDivider"></View>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@android:drawable/list_selector_background" android:minHeight="?android:attr/listPreferredItemHeight" android:paddingLeft="4dp" android:paddingRight="4dp">
+            <TextView android:layout_gravity="center" android:layout_weight="1" android:layout_marginRight="10dp" android:layout_width="0dp" android:text="@string/prefsPostAsMobileByDefault" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+            <ToggleButton android:layout_gravity="center" android:id="@+id/prefsPostAsMobileByDefaultToggleButton" android:layout_width="wrap_content" android:layout_height="wrap_content"></ToggleButton>
+        </LinearLayout>
+        <View android:layout_height="wrap_content" android:layout_width="match_parent" android:background="?android:attr/listDivider"></View>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@android:drawable/list_selector_background" android:minHeight="?android:attr/listPreferredItemHeight" android:paddingLeft="4dp" android:paddingRight="4dp">
+            <TextView android:layout_gravity="center" android:layout_weight="1" android:layout_marginRight="10dp" android:layout_width="0dp" android:text="@string/prefsShowCharacterCounter" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+            <ToggleButton android:layout_gravity="center" android:id="@+id/prefsShowCharacterCounterToggleButton" android:layout_width="wrap_content" android:layout_height="wrap_content"></ToggleButton>
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical">
+			<TextView android:text="@string/appearance" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:minHeight="32dp" android:paddingLeft="4dp" android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@android:color/darker_gray" android:textStyle="bold" />
+			<View android:layout_width="wrap_content" android:layout_height="2px" android:background="@android:color/darker_gray" />
+		</LinearLayout>
+        <LinearLayout android:background="@android:drawable/list_selector_background" android:layout_height="match_parent" android:minHeight="?android:attr/listPreferredItemHeight" android:layout_width="match_parent" android:paddingLeft="4dp" android:paddingRight="4dp">
+            <TextView android:layout_gravity="center_vertical" android:layout_marginRight="10dp" android:layout_width="wrap_content" android:text="@string/theme" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+            <Spinner android:layout_gravity="center_vertical" android:id="@+id/prefsThemeSelectionSpinner" android:layout_width="match_parent" android:layout_height="wrap_content"></Spinner>
+        </LinearLayout>
+        <View android:layout_height="wrap_content" android:layout_width="match_parent" android:background="?android:attr/listDivider"></View>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@android:drawable/list_selector_background" android:minHeight="?android:attr/listPreferredItemHeight" android:paddingLeft="4dp" android:paddingRight="4dp">
+            <TextView android:text="@string/prefsAnimateSmileys" android:layout_gravity="center" android:layout_weight="1" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_marginRight="10dp" android:layout_height="wrap_content" android:layout_width="0dp"></TextView>
+            <ToggleButton android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/prefsAnimateSmileysToggleButton"></ToggleButton>
+        </LinearLayout>
+        <View android:layout_height="wrap_content" android:layout_width="match_parent" android:background="?android:attr/listDivider"></View>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@android:drawable/list_selector_background" android:minHeight="?android:attr/listPreferredItemHeight" android:paddingLeft="4dp" android:paddingRight="4dp">
+            <TextView android:text="@string/prefsShowNoelshackThumbnails" android:layout_gravity="center" android:layout_weight="1" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_marginRight="10dp" android:layout_height="wrap_content" android:layout_width="0dp"></TextView>
+            <ToggleButton android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/prefsShowNoelshackThumbnailsToggleButton"></ToggleButton>
+        </LinearLayout>
+        <View android:layout_height="wrap_content" android:layout_width="match_parent" android:background="?android:attr/listDivider"></View>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@android:drawable/list_selector_background" android:minHeight="?android:attr/listPreferredItemHeight" android:paddingLeft="4dp" android:paddingRight="4dp">
+            <TextView android:text="@string/prefsKeepJvcStyleTopics" android:layout_gravity="center" android:layout_weight="1" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_marginRight="10dp" android:layout_height="wrap_content" android:layout_width="0dp"></TextView>
+            <ToggleButton android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/prefsKeepJvcStyleTopicsToggleButton"></ToggleButton>
+        </LinearLayout>
+        <View android:layout_height="wrap_content" android:layout_width="match_parent" android:background="?android:attr/listDivider"></View>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@android:drawable/list_selector_background" android:minHeight="?android:attr/listPreferredItemHeight" android:paddingLeft="4dp" android:paddingRight="4dp">
+            <TextView android:text="@string/prefsKeepJvcStylePosts" android:layout_gravity="center" android:layout_weight="1" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_marginRight="10dp" android:layout_height="wrap_content" android:layout_width="0dp"></TextView>
+            <ToggleButton android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/prefsKeepJvcStylePostsToggleButton"></ToggleButton>
+        </LinearLayout>
+        <View android:layout_height="wrap_content" android:layout_width="match_parent" android:background="?android:attr/listDivider"></View>
+        <LinearLayout android:background="@android:drawable/list_selector_background" android:layout_height="match_parent" android:minHeight="?android:attr/listPreferredItemHeight" android:layout_width="match_parent" android:paddingLeft="4dp" android:paddingRight="4dp">
+            <TextView android:layout_gravity="center_vertical" android:layout_marginRight="10dp" android:layout_width="wrap_content" android:text="@string/prefsPostsTextSize" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+            <Spinner android:layout_gravity="center_vertical" android:id="@+id/prefsPostsTextSizeSpinner" android:layout_width="match_parent" android:layout_height="wrap_content"></Spinner>
+        </LinearLayout>
+        <View android:layout_height="wrap_content" android:layout_width="match_parent" android:background="?android:attr/listDivider"></View>
+        <LinearLayout android:background="@android:drawable/list_selector_background" android:layout_height="match_parent" android:minHeight="?android:attr/listPreferredItemHeight" android:layout_width="match_parent" android:paddingLeft="4dp" android:paddingRight="4dp">
+            <TextView android:layout_gravity="center_vertical" android:layout_marginRight="10dp" android:layout_width="wrap_content" android:text="@string/prefsSmileysSize" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+            <Spinner android:layout_gravity="center_vertical" android:id="@+id/prefsSmileysSizeSpinner" android:layout_width="match_parent" android:layout_height="wrap_content"></Spinner>
+        </LinearLayout>
+        <View android:layout_height="wrap_content" android:layout_width="match_parent" android:background="?android:attr/listDivider"></View>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@android:drawable/list_selector_background" android:minHeight="?android:attr/listPreferredItemHeight" android:paddingLeft="4dp" android:paddingRight="4dp">
+            <TextView android:layout_gravity="center" android:layout_weight="1" android:layout_marginRight="10dp" android:layout_width="0dp" android:text="@string/prefsHideTitleBar" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+            <ToggleButton android:layout_gravity="center" android:id="@+id/prefsHideTitleBarToggleButton" android:layout_width="wrap_content" android:layout_height="wrap_content"></ToggleButton>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

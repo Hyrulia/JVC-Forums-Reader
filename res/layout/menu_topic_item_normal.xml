@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical"  android:background="@android:drawable/list_selector_background" android:clickable="true">
+
+	<View
+	    android:id="@+id/menuTopicItemSeparator"
+	    android:layout_width="match_parent"
+	    style="@style/MenuTopicItemSeparatorNormal">
+</View>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:minHeight="48dp" >
+
+
+
+		<LinearLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_vertical"
+		    android:layout_weight="1"
+		    android:orientation="vertical" >
+
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:paddingLeft="4dp"
+			    android:paddingRight="4dp" >
+
+			    <ImageView
+			        android:id="@+id/menuTopicItemIconImageView"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content" />
+
+			    <TextView
+			        android:id="@+id/menuTopicItemTopicNameTextView"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_weight="1"
+			        android:singleLine="true"
+			        android:textAppearance="?android:attr/textAppearanceMedium"
+			        android:textColor="@color/jvcTopicName" />
+
+			    <TextView
+			        android:id="@+id/menuTopicItemPostCountTextView"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_marginLeft="5dp"
+			        android:textAppearance="?android:attr/textAppearanceMedium"
+			        android:textColor="@color/jvcTopicPostCount" />
+			</LinearLayout>
+
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:paddingLeft="4dp"
+			    android:paddingRight="4dp" >
+
+			    <TextView
+			        android:id="@+id/menuTopicItemPseudoTextView"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_weight="1"
+			        android:singleLine="true"
+			        android:textAppearance="?android:attr/textAppearanceSmall"
+			        android:textColor="@color/jvcRegularPseudo" />
+
+			    <TextView
+			        android:id="@+id/menuTopicItemDateTextView"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_marginLeft="5dp"
+			        android:textAppearance="?android:attr/textAppearanceSmall"
+			        android:textColor="@color/jvcRegularPseudo" />
+			</LinearLayout>
+
+		</LinearLayout>
+
+
+		<CheckBox
+		    android:id="@+id/menuTopicItemCheckBox"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_vertical"
+		    android:layout_marginRight="4dp" />
+
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:weightSum="1" android:id="@+id/mainLayout" android:orientation="vertical" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/mainMenuScrollView">
+        <LinearLayout android:layout_width="match_parent" android:orientation="vertical" android:id="@+id/mainMenuLayout" android:layout_height="match_parent" android:paddingLeft="4dp" android:paddingRight="4dp">
+            <LinearLayout android:onClick="mainMenuActiveTopicsItemClick" android:background="@android:drawable/list_selector_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:paddingLeft="4dip" android:minHeight="?android:attr/listPreferredItemHeight">
+            	<ImageView android:src="@drawable/ic_menu_refresh" android:layout_marginRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            	<TextView android:id="@+id/mainMenuUTTitleTextView" android:text="@string/mainMenuActiveTopicsItem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" />
+            	<ProgressBar android:layout_width="wrap_content" android:visibility="gone" android:id="@+id/mainMenuUTItemProgressBar" android:layout_marginLeft="10dp" android:layout_gravity="center_vertical" style="?android:attr/progressBarStyleSmall" android:layout_height="wrap_content"></ProgressBar>
+            	<TextView android:id="@+id/mainMenuUTItemTextView" android:layout_width="0dp" android:layout_weight="1" android:layout_marginRight="10dp" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@android:color/darker_gray" android:textStyle="bold" android:gravity="center_vertical|right" />
+            </LinearLayout>
+            <View android:layout_width="match_parent" android:layout_height="wrap_content" android:background="?android:attr/listDivider" />
+            <LinearLayout android:onClick="mainMenuPMItemClick" android:orientation="horizontal" android:background="@android:drawable/list_selector_background" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:paddingLeft="4dip" android:minHeight="?android:attr/listPreferredItemHeight">
+                <ImageView android:src="@drawable/ic_menu_start_conversation" android:layout_marginRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:id="@+id/mainMenuPMItemTextView" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_gravity="center_vertical" android:text="@string/mainMenuPMItem" android:layout_height="wrap_content"></TextView>
+                <ProgressBar android:layout_width="wrap_content" android:visibility="invisible" android:id="@+id/mainMenuPMItemProgressBar" android:layout_marginLeft="10dp" android:layout_gravity="center_vertical" style="?android:attr/progressBarStyleSmall" android:layout_height="wrap_content"></ProgressBar>
+            </LinearLayout>
+			<View android:layout_width="match_parent" android:layout_height="5dp" android:background="@android:color/darker_gray" />
+			<LinearLayout android:onClick="mainMenuFavTopicsItemClick" android:orientation="horizontal" android:background="@android:drawable/list_selector_background" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:paddingLeft="4dip" android:minHeight="?android:attr/listPreferredItemHeight">
+                <ImageView android:src="@drawable/ic_menu_star" android:layout_marginRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            	<TextView android:text="@string/mainMenuFavTopicsItem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" />
+            </LinearLayout>
+            <View android:layout_width="match_parent" android:layout_height="wrap_content" android:background="?android:attr/listDivider" />
+            <LinearLayout android:onClick="mainMenuFavForumsItemClick" android:orientation="horizontal" android:background="@android:drawable/list_selector_background" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:paddingLeft="4dip" android:minHeight="?android:attr/listPreferredItemHeight">
+                <ImageView android:src="@drawable/ic_menu_star" android:layout_marginRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            	<TextView android:text="@string/mainMenuFavForumsItem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" />
+            </LinearLayout>
+            <View android:layout_width="match_parent" android:layout_height="wrap_content" android:background="?android:attr/listDivider" />
+            <LinearLayout android:onClick="mainMenuForumListItemClick" android:orientation="horizontal" android:background="@android:drawable/list_selector_background" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:paddingLeft="4dip" android:minHeight="?android:attr/listPreferredItemHeight">
+                <ImageView android:src="@drawable/ic_menu_sort_by_size" android:layout_marginRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            	<TextView android:text="@string/mainMenuForumListItem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" />
+            </LinearLayout>
+            <View android:layout_width="match_parent" android:layout_height="wrap_content" android:background="?android:attr/listDivider" />
+            <LinearLayout android:onClick="mainMenuTopForumsItemClick" android:orientation="horizontal" android:background="@android:drawable/list_selector_background" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:paddingLeft="4dip" android:minHeight="?android:attr/listPreferredItemHeight">
+                <ImageView android:src="@drawable/ic_menu_star" android:layout_marginRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            	<TextView android:text="@string/mainMenuTopForumsItem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" />
+            </LinearLayout>
+            <View android:layout_width="match_parent" android:layout_height="wrap_content" android:background="?android:attr/listDivider" />
+            <LinearLayout android:onClick="mainMenuSearchForumItemClick" android:orientation="horizontal" android:background="@android:drawable/list_selector_background" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:paddingLeft="4dip" android:minHeight="?android:attr/listPreferredItemHeight">
+                <ImageView android:src="@drawable/ic_menu_search" android:layout_marginRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            	<TextView android:text="@string/mainMenuSearchForumItem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" />
+            </LinearLayout>
+            <View android:layout_width="match_parent" android:layout_height="wrap_content" android:background="?android:attr/listDivider" />
+            <LinearLayout android:onClick="mainMenuSearchForumJVItemClick" android:orientation="horizontal" android:background="@android:drawable/list_selector_background" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:paddingLeft="4dip" android:minHeight="?android:attr/listPreferredItemHeight">
+                <ImageView android:src="@drawable/ic_menu_search" android:layout_marginRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            	<TextView android:text="@string/mainMenuSearchForumJVItem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" />
+            </LinearLayout>
+            <View android:layout_width="match_parent" android:layout_height="5dp" android:background="@android:color/darker_gray" />
+            <LinearLayout android:onClick="mainMenuPreferencesItemClick" android:orientation="horizontal" android:background="@android:drawable/list_selector_background" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:paddingLeft="4dip" android:minHeight="?android:attr/listPreferredItemHeight">
+                <ImageView android:src="@drawable/ic_menu_preferences" android:layout_marginRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            	<TextView android:text="@string/mainMenuPreferencesItem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" />
+            </LinearLayout>
+            <View android:layout_width="match_parent" android:layout_height="wrap_content" android:background="?android:attr/listDivider" />
+            <LinearLayout android:onClick="mainMenuDisconnectItemClick" android:orientation="horizontal" android:background="@android:drawable/list_selector_background" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:paddingLeft="4dip" android:minHeight="?android:attr/listPreferredItemHeight">
+                <ImageView android:src="@drawable/ic_menu_back" android:layout_marginRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            	<TextView android:text="@string/mainMenuDisconnectItem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" />
+            </LinearLayout>
+            <View android:layout_width="match_parent" android:layout_height="wrap_content" android:background="?android:attr/listDivider" />
+            <LinearLayout android:onClick="mainMenuInfoItemClick" android:orientation="horizontal" android:background="@android:drawable/list_selector_background" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:paddingLeft="4dip" android:minHeight="?android:attr/listPreferredItemHeight">
+                <ImageView android:src="@drawable/ic_menu_info_details" android:layout_marginRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:text="@string/mainMenuInfoItem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+	
+</LinearLayout>

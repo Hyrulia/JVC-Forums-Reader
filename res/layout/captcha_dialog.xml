@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="250dp" android:padding="10dp">
+    <TextView android:id="@+id/captchaDialogTextView" android:text="@string/captchaTextView" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:layout_width="match_parent" android:gravity="center"/>
+    <FrameLayout android:id="@+id/captchaErrorLayout" android:padding="10dp" android:background="@drawable/jvc_error_box" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="10dp">
+    	<TextView android:id="@+id/captchaErrorTextView" android:textColor="@color/jvcAdminPseudo" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content"></TextView>
+    </FrameLayout>
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="10dp">
+    	<com.blundell.tut.LoaderImageView android:id="@+id/captchaImageView" android:layout_height="22dp" android:layout_width="100dp" android:gravity="center" android:layout_gravity="center"></com.blundell.tut.LoaderImageView>
+        <EditText android:id="@+id/captchaEditText" android:layout_weight="1" android:numeric="integer" android:inputType="textShortMessage|number" android:layout_height="wrap_content" android:layout_width="0dp" android:layout_marginLeft="10dp">
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="10dp">
+        <Button android:id="@+id/captchaReloadButton" android:text="@string/captchaButtonReload" android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="0dp"></Button>
+        <Button android:id="@+id/captchaSubmitButton" android:text="@string/captchaButtonSubmit" android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="0dp"></Button>
+    </LinearLayout>
+</LinearLayout>

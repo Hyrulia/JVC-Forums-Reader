@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="HoloDarkTheme" parent="@android:style/Theme.Holo">
+        <!-- <item name="android:windowActionBar">false</item> -->
+        <!-- <item name="android:windowTitleSize">58dp</item> -->
+    </style>
+
+    <style name="HoloLightTheme" parent="@android:style/Theme.Holo.Light">
+        <!-- <item name="android:windowActionBar">false</item> -->
+        <!-- <item name="android:windowTitleSize">58dp</item> -->
+    </style>
+</resources>

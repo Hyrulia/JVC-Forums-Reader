@@ -1,0 +1,326 @@
+<resources>
+	<string-array name="forumListNames">
+        <item>#category</item>
+        <item>FORUMS BLA-BLA</item>
+        <item>Moins de 15 ans</item>
+        <item>15-18 ans</item>
+        <item>18-25 ans</item>
+        <item>25-35 ans</item>
+        <item>Plus de 35 ans</item>
+        
+        <item>#category</item>
+        <item>JEUXVIDEO.COM EN DIX FORUMS</item>
+        <item>Suggestions</item>
+        <item>Réclamations</item>
+        <item>Elections des modérateurs</item>
+        <item>Communauté</item>
+        <item>Gaming Live</item>
+        <item>Boîte à idées</item>
+        <item>Contribuer à jeuxvideo.com</item>
+        <item>ForumJV</item>
+        <item>Blogs de jeuxvideo.com</item>
+        <item>Sondages</item>
+        
+        <item>#category</item>
+        <item>"L'UNIVERS DU JEU VIDEO"</item>
+        <item>Général jeux vidéo</item>
+        <item>Matériel Informatique</item>
+        <item>Petites Annonces</item>
+        <item>Plateforme de téléchargement PC</item>
+        <item>Jeu en réseau</item>
+        <item>Héros de jeux vidéo</item>
+        <item>E-Sport</item>
+        <item>STR (Stratégie Temps Réel)</item>
+        <item>RPG (Role Playing Game)</item>
+        <item>Simulation</item>
+        <item>FPS (First Person Shooter)</item>
+        <item>Jeux de courses</item>
+        <item>Jeux de combat</item>
+        <item>"Jeux d'aventure"</item>
+        <item>Jeux de sports</item>
+        
+        <item>#category</item>
+        <item>MICRO-ORDINATEURS</item>
+        <item>PC</item>
+        <item>Mac</item>
+        <item>Linux</item>
+        
+        <item>#category</item>
+        <item>"CONSOLES D'AUJOURD'HUI"</item>
+        <item>Playstation 4</item>
+        <item>Playstation 3</item>
+        <item>Playstation 2</item>
+        <item>Playstation Vita</item>
+        <item>Playstation Portable</item>
+        <item>Playstation Store</item>
+        <item>Xbox One</item>
+        <item>Xbox 360</item>
+        <item>Xbox Live Arcade</item>
+        <item>Xbox Originals</item>
+        <item>iPhone/iPod Touch</item>
+        <item>iPad</item>
+        <item>Android</item>
+        <item>Windows Phone</item>
+        <item>Nintendo Wii</item>
+        <item>Nintendo DS</item>
+        <item>Nintendo 3DS</item>
+        <item>Wii Ware</item>
+        <item>Console Virtuelle</item>
+        <item>DSIWare</item>
+        <item>Wii U</item>
+        <item>Ouya</item>
+        <item>Guerre des Consoles</item>
+        <item>Import</item>
+        
+        <item>#category</item>
+        <item>OLDIES</item>
+        <item>Xbox</item>
+        <item>Dreamcast</item>
+        <item>Saturn</item>
+        <item>GP32</item>
+        <item>Gamecube</item>
+        <item>Nintendo 64</item>
+        <item>Gameboy</item>
+        <item>Autres consoles</item>
+        <item>Gameboy Advance</item>
+        <item>Megadrive</item>
+        <item>N-Gage</item>
+        <item>Emulation</item>
+        <item>Playstation 1</item>
+        <item>Super Nintendo</item>
+        <item>Gizmondo</item>
+        <item>Rétrogaming</item>
+        
+        <item>#category</item>
+        <item>UN AUTRE REGARD</item>
+        <item>Création de jeux</item>
+        <item>Business du jeu vidéo</item>
+        <item>Jeux vidéo et handicap</item>
+        <item>Tests de jeux vidéo</item>
+        <item>Jeux du web</item>
+        <item>Magazines de jeux vidéo</item>
+        <item>Belgique</item>
+        <item>Freeware / Shareware</item>
+        <item>Musiques de jeux vidéo</item>
+        <item>Suisse</item>
+        <item>Clans</item>
+        <item>Québec</item>
+        <item>Japon</item>
+        
+        <item>#category</item>
+        <item>FORUMS PASSIONS</item>
+        <item>Arts martiaux</item>
+        <item>Basket</item>
+        <item>Cyclisme</item>
+        <item>Football</item>
+        <item>Natation</item>
+        <item>Sports mécaniques</item>
+        <item>Autres sports</item>
+        <item>Athlétisme</item>
+        <item>Boxe</item>
+        <item>Equitation</item>
+        <item>Handball</item>
+        <item>Rugby</item>
+        <item>Tennis</item>
+        <item>Badminton</item>
+        <item>Catch</item>
+        <item>Fitness et nutrition</item>
+        <item>Hockey</item>
+        <item>Sports de glisse</item>
+        <item>Tennis de table</item>
+        <item>Astronomie</item>
+        <item>Hifi - Home cinéma - DVD</item>
+        <item>Téléphone portable</item>
+        <item>Création de sites web</item>
+        <item>Programmation</item>
+        <item>Montage vidéo</item>
+        <item>Internet</item>
+        <item>Sciences &amp; Technologies</item>
+        <item>Actualités</item>
+        <item>Métiers</item>
+        <item>Politique</item>
+        <item>Cours et devoirs</item>
+        <item>Nature et Animaux</item>
+        <item>Environnement</item>
+        <item>Histoire</item>
+        <item>Philosophie</item>
+        <item>Arts Graphiques</item>
+        <item>Ecriture</item>
+        <item>Mythologies</item>
+        <item>BD / Mangas / Comics</item>
+        <item>Livres</item>
+        <item>Japanimation</item>
+        <item>Cinéma</item>
+        <item>Musique</item>
+        <item>Photographie</item>
+        <item>Automobiles</item>
+        <item>Cuisine</item>
+        <item>Modélisme</item>
+        <item>Tuning PC</item>
+        <item>Poker</item>
+        <item>Autre Jeux</item>
+        <item>Humour</item>
+        <item>Paranormal</item>
+        <item>Voyage</item>
+        <item>Aviation</item>
+        <item>Collectioneurs</item>
+        <item>Jeux de rôles</item>
+        <item>Radio - Télévision</item>
+        <item>MyGameCover.com</item>
+        <item>NoelShack.com</item>
+    </string-array>
+	<integer-array name="forumListIds">
+		<item>15</item>
+		<item>50</item>
+		<item>51</item>
+		<item>52</item>
+		<item>53</item>
+		
+		<item>13</item>
+		<item>1000017</item>
+		<item>1000018</item>
+		<item>1000021</item>
+		<item>99</item>
+		<item>1000032</item>
+		<item>1000002</item>
+		<item>1000003</item>
+		<item>87</item>
+		<item>76</item>
+		
+		<item>7</item>
+		<item>6</item>
+		<item>3</item>
+        <item>1000040</item>
+		<item>4</item>
+		<item>72</item>
+        <item>84</item>
+        <item>91</item>
+        <item>93</item>
+        <item>1000013</item>
+        <item>92</item>
+        <item>95</item>
+        <item>1000028</item>
+        <item>94</item>
+        <item>96</item>
+        
+        <item>1</item>
+        <item>11</item>
+        <item>38</item>
+
+        <item>1000043</item>
+        <item>60</item>
+        <item>18</item>
+        <item>1000006</item>
+        <item>42</item>
+        <item>1000015</item>
+        <item>1000044</item>
+        <item>61</item>
+        <item>1000000</item>
+        <item>1000023</item>
+        <item>1000029</item>
+        <item>1000037</item>
+        <item>1000005</item>
+        <item>1000041</item>
+        <item>62</item>
+        <item>56</item>
+        <item>1000039</item>
+        <item>1000024</item>
+        <item>1000014</item>
+        <item>1000033</item>
+        <item>1000011</item>
+        <item>1000045</item>
+        <item>36</item>
+        <item>75</item>
+        
+        <item>10</item>
+        <item>12</item>
+        <item>1000027</item>
+        <item>40</item>
+        <item>5</item>
+        <item>9</item>
+        <item>19</item>
+        <item>2</item>
+        <item>14</item>
+        <item>1000025</item>
+        <item>41</item>
+        <item>16</item>
+        <item>8</item>
+        <item>1000026</item>
+        <item>63</item>
+        <item>1000010</item>
+        
+        <item>31</item>
+        <item>49</item>
+        <item>74</item>
+        <item>81</item>
+        <item>1000012</item>
+        <item>77</item>
+        <item>1000020</item>
+        <item>97</item>
+        <item>1000007</item>
+        <item>1000022</item>
+        <item>85</item>
+        <item>83</item>
+        <item>1000034</item>
+        
+        <item>45</item>
+        <item>29</item>
+        <item>46</item>
+        <item>20</item>
+        <item>1000008</item>
+        <item>22</item>
+        <item>24</item>
+        <item>86</item>
+        <item>88</item>
+        <item>73</item>
+        <item>44</item>
+        <item>21</item>
+        <item>33</item>
+        <item>1000016</item>
+        <item>79</item>
+        <item>78</item>
+        <item>43</item>
+        <item>23</item>
+        <item>82</item>
+        <item>57</item>
+        <item>28</item>
+        <item>17</item>
+        <item>30</item>
+        <item>47</item>
+        <item>1000030</item>
+        <item>90</item>
+        <item>65</item>
+        <item>69</item>
+        <item>70</item>
+        <item>55</item>
+        <item>35</item>
+        <item>39</item>
+        <item>1000001</item>
+        <item>59</item>
+        <item>68</item>
+        <item>48</item>
+        <item>58</item>
+        <item>1000035</item>
+        <item>27</item>
+        <item>34</item>
+        <item>98</item>
+        <item>26</item>
+        <item>25</item>
+        <item>1000009</item>
+        <item>1000019</item>
+        <item>67</item>
+        <item>1000031</item>
+        <item>66</item>
+        <item>1000038</item>
+        <item>71</item>
+        <item>54</item>
+        <item>89</item>
+        <item>80</item>
+        <item>1000004</item>
+        <item>64</item>
+        <item>37</item>
+        <item>32</item>
+        <item>1000036</item>
+        <item>1000042</item>
+	</integer-array>
+</resources>

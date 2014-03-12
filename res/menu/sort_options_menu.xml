@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/optionsMenuSortByName" android:title="@string/optionsMenuSortByName"></item>
+    <item android:id="@+id/optionsMenuSortById" android:title="@string/optionsMenuSortById"></item>
+    <item android:id="@+id/optionsMenuInverseList" android:title="@string/optionsMenuInverseList"></item>
+</menu>

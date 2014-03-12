@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/optionsMenuTickAll" android:title="@string/optionsMenuTickAll"></item>
+	<item android:id="@+id/optionsMenuUntickAll" android:title="@string/optionsMenuUntickAll"></item>
+	<item android:id="@+id/optionsMenuPreviousPage" android:title="@string/optionsMenuPreviousPage"></item>
+	<item android:id="@+id/optionsMenuNextPage" android:title="@string/optionsMenuNextPage"></item>
+</menu>

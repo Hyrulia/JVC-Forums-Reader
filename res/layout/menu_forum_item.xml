@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+	<View android:layout_width="match_parent" android:background="?android:attr/listDivider" android:layout_height="wrap_content" />
+	<TextView android:background="@android:drawable/list_selector_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:gravity="center_vertical" android:paddingLeft="4dip" android:minHeight="48dp" />
+</LinearLayout>

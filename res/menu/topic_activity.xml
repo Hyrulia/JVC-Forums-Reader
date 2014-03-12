@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/optionsMenuGoToForum" android:title="@string/goToForum"></item>
+	<item android:id="@+id/optionsMenuLockTopic" android:title="@string/optionsMenuLockTopic"></item>
+	<item android:id="@+id/optionsMenuPinTopic" android:title="@string/optionsMenuPinTopic"></item>
+	<item android:id="@+id/optionsMenuFavActionTopics" android:title="@string/addToFavoriteTopics"></item>
+	<item android:id="@+id/optionsMenuUpdatedActionTopics" android:title="@string/addToUpdatedTopics"></item>
+	<item android:id="@+id/optionsMenuCopyTopicLink" android:title="@string/optionsMenuCopyTopicLink"></item>
+	<item android:id="@+id/optionsMenuSeeKickInterface" android:title="@string/optionsMenuSeeKickInterface"></item>
+    <item android:id="@+id/optionsMenuArchiveTopic" android:title="@string/optionsMenuArchiveTopic"></item>
+</menu>

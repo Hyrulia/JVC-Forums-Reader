@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" android:orientation="vertical">
+        <ScrollView android:paddingBottom="10dp" android:paddingTop="10dp" android:layout_height="match_parent" android:layout_width="match_parent" android:layout_gravity="center">
+
+            <LinearLayout
+                android:id="@+id/loginLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:focusable="true"
+				android:focusableInTouchMode="true"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="20dp"
+                    android:text="JVC Forums Reader"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="?android:attr/textColorPrimary"/>
+
+                <LinearLayout android:id="@+id/loginEditLayout" android:layout_height="wrap_content" android:layout_width="match_parent">
+                    <TextView android:layout_gravity="center_vertical" android:layout_marginLeft="10dp" android:layout_width="wrap_content" android:layout_marginRight="10dp" android:id="@+id/loginLabel" android:text="@string/loginPseudo" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+                    <EditText android:layout_width="match_parent" android:layout_weight="1" android:layout_marginRight="10dp" android:id="@+id/loginEdit" android:layout_height="wrap_content" android:inputType="textShortMessage"></EditText>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/passwordEditLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp" >
+
+                    <TextView android:layout_gravity="center_vertical" android:layout_marginLeft="10dp" android:layout_width="wrap_content" android:layout_marginRight="10dp" android:id="@+id/passwordLabel" android:text="@string/loginPassword" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+                    <EditText android:layout_width="match_parent" android:layout_weight="1" android:layout_marginRight="10dp" android:id="@+id/passwordEdit" android:layout_height="wrap_content" android:inputType="textPassword"></EditText>
+                </LinearLayout>
+                <CheckBox android:id="@+id/rememberLoginCheckBox" android:onClick="checkBoxRememberLoginClick" android:layout_marginLeft="10dp" android:layout_width="match_parent" android:layout_marginRight="10dp" android:text="@string/chooseRememberLogin" android:layout_height="wrap_content"></CheckBox>
+                <CheckBox android:id="@+id/rememberPasswordCheckBox" android:onClick="checkBoxRememberPasswordClick" android:layout_marginLeft="10dp" android:layout_width="match_parent" android:layout_marginRight="10dp" android:text="@string/chooseRememberPassword" android:layout_height="wrap_content"></CheckBox>
+
+                <CheckBox
+                    android:id="@+id/autoConnectCheckBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:onClick="checkBoxAutoConnectClick"
+                    android:text="@string/chooseAutoConnect" >
+
+</CheckBox>
+
+                <Button
+                    android:id="@+id/connectButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:onClick="buttonConnectClick"
+                    android:text="@string/loginLogin"
+                    android:textSize="25sp" >
+</Button>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/accounts"
+                    android:onClick="myAccountsButtonClick"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+        </ScrollView>
+</LinearLayout>

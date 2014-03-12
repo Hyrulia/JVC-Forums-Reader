@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ssv="http://schemas.android.com/apk/res/com.forum.jvcreader"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:padding="5dp">
+        <Button android:layout_height="wrap_content" android:id="@+id/pmReceivedRefreshButton" android:onClick="pmReceivedRefreshButtonClick" android:text="@string/genericRefresh" android:layout_weight="1" android:layout_width="0dp"></Button>
+        <Button android:layout_height="wrap_content" android:id="@+id/pmReceivedRemoveButton" android:onClick="pmReceivedRemoveButtonClick" android:text="@string/genericRemove" android:layout_weight="1" android:layout_width="0dp"></Button>
+    </LinearLayout>
+    <View android:layout_width="match_parent" android:layout_height="1px" android:background="?android:attr/listDivider" />
+	<com.forum.jvcreader.widgets.SwipeableScrollViewer android:id="@+id/pmReceivedSwipeableScrollViewer" android:layout_width="fill_parent" android:layout_height="fill_parent" ssv:default_screen="0">
+	    <ScrollView
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:id="@+id/pmReceivedMainView">
+	
+	        <LinearLayout
+	            android:id="@+id/pmReceivedTopicListLayout"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:orientation="vertical"
+	            android:paddingRight="4dp"
+	            android:paddingLeft="4dp">
+	            <TextView android:id="@+id/pmReceivedHeaderTextView" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:gravity="center" android:textAppearance="?android:attr/textAppearanceMedium" />
+	            <View android:layout_width="match_parent" android:layout_height="1px" android:background="?android:attr/listDivider" />
+	        </LinearLayout>
+	    </ScrollView>
+    </com.forum.jvcreader.widgets.SwipeableScrollViewer>
+    
+</LinearLayout>

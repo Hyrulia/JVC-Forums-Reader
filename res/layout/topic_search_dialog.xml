@@ -1,0 +1,15 @@
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="10dp" android:minWidth="250dp">
+	<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+	    <Button android:id="@+id/topicSearchMyTopicsButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/searchMyTopics" />
+	    <EditText android:id="@+id/topicSearchEditText" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:inputType="textShortMessage">
+	        <requestFocus></requestFocus>
+	    </EditText>
+		<RadioGroup android:id="@+id/topicSearchRadioGroup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical">
+		    <RadioButton android:id="@+id/topicSearchSubjectRadioButton" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/radioButtonSubject"></RadioButton>
+		    <RadioButton android:id="@+id/topicSearchAuthorRadioButton" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/radioButtonAuthor"></RadioButton>
+		    <RadioButton android:id="@+id/topicSearchMessageRadioButton" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/radioButtonMessage"></RadioButton>
+	    </RadioGroup>
+
+	    <Button android:id="@+id/topicSearchSubmitButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/genericSearch"></Button>
+	</LinearLayout>
+</ScrollView>

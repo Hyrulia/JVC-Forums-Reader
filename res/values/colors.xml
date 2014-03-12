@@ -1,0 +1,15 @@
+<resources>
+	<color name="lightGrey">#AAAAAA</color>
+	<color name="darkGrey">#222222</color>
+    <color name="brightOrange">#FF6804</color>
+    <color name="jvcRegularPseudo">#444</color>
+    <color name="jvcAdminPseudo">#C30</color>
+    <color name="jvcTopicBackground1">#E9EFFA</color>
+    <color name="jvcTopicBackground2">#F7F7F7</color>
+    <color name="jvcTopicSeparator">#FFFFFF</color>
+    <color name="jvcTopicPostCount">#F60</color>
+    <color name="jvcTopicName">#0A77B8</color>
+    <color name="jvcTopicClicked">#FFC76E</color>
+    <color name="jvcGenderMale">#09F</color>
+    <color name="jvcGenderFemale">#F39</color>
+</resources>

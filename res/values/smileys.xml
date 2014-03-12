@@ -1,0 +1,573 @@
+<resources>
+    <!-- loadingThumbnail -->
+    <array name="loadingThumbnailSequence">
+        <item>@raw/thumbnail_loading_1</item>
+        <item>2</item>
+        <item>@raw/thumbnail_loading_2</item>
+        <item>2</item>
+        <item>@raw/thumbnail_loading_3</item>
+        <item>2</item>
+        <item>@raw/thumbnail_loading_4</item>
+        <item>2</item>
+        <item>@raw/thumbnail_loading_5</item>
+        <item>2</item>
+        <item>@raw/thumbnail_loading_6</item>
+        <item>2</item>
+        <item>@raw/thumbnail_loading_7</item>
+        <item>2</item>
+        <item>@raw/thumbnail_loading_8</item>
+        <item>2</item>
+        <item>@raw/thumbnail_loading_9</item>
+        <item>2</item>
+        <item>@raw/thumbnail_loading_10</item>
+        <item>2</item>
+        <item>@raw/thumbnail_loading_11</item>
+        <item>2</item>
+        <item>@raw/thumbnail_loading_12</item>
+        <item>2</item>
+    </array>
+    
+    <!-- s22 -->
+    <array name="s22Sequence">
+        <item>@raw/s22_1</item>
+        <item>1</item>
+        <item>@raw/s22_3</item>
+        <item>1</item>
+        <item>@raw/s22_5</item>
+        <item>1</item>
+        <item>@raw/s22_6</item>
+        <item>10</item>
+        <item>@raw/s22_7</item>
+        <item>1</item>
+        <item>@raw/s22_8</item>
+        <item>1</item>
+        <item>@raw/s22_9</item>
+        <item>1</item>
+        <item>@raw/s22_10</item>
+        <item>1</item>
+        <item>@raw/s22_11</item>
+        <item>1</item>
+        <item>@raw/s22_12</item>
+        <item>1</item>
+        <item>@raw/s22_13</item>
+        <item>1</item>
+        <item>@raw/s22_14</item>
+        <item>10</item>
+        <item>@raw/s22_15</item>
+        <item>1</item>
+        <item>@raw/s22_16</item>
+        <item>1</item>
+        <item>@raw/s22_17</item>
+        <item>1</item>
+        <item>@raw/s22_18</item>
+        <item>1</item>
+        <item>@raw/s22_19</item>
+        <item>1</item>
+        <item>@raw/s22_20</item>
+        <item>1</item>
+        <item>@raw/s22_21</item>
+        <item>1</item>
+        <item>@raw/s22_22</item>
+        <item>10</item>
+        <item>@raw/s22_23</item>
+        <item>20</item>
+    </array>
+    
+    <!-- s23 -->
+    <array name="s23Sequence">
+        <item>@raw/s23_1</item>
+        <item>20</item>
+        <item>@raw/s23_2</item>
+        <item>1</item>
+        <item>@raw/s23_3</item>
+        <item>20</item>
+        <item>@raw/s23_4</item>
+        <item>1</item>
+    </array>
+    
+    <!-- s24 -->
+	<array name="s24Sequence">
+		<item>@raw/s24_1</item>
+		<item>15</item>
+		<item>@raw/s24_2</item>
+		<item>1</item>
+		<item>@raw/s24_3</item>
+		<item>1</item>
+		<item>@raw/s24_4</item>
+		<item>15</item>
+		<item>@raw/s24_5</item>
+		<item>1</item>
+		<item>@raw/s24_6</item>
+		<item>1</item>
+	</array>
+	
+	<!-- s25 -->
+	<array name="s25Sequence">
+		<item>@raw/s25_1</item>
+		<item>3</item>
+		<item>@raw/s25_2</item>
+		<item>3</item>
+		<item>@raw/s25_3</item>
+		<item>3</item>
+		<item>@raw/s25_4</item>
+		<item>3</item>
+	</array>
+	
+	<!-- s26 -->
+	<array name="s26Sequence">
+		<item>@raw/s26_1</item>
+		<item>15</item>
+		<item>@raw/s26_2</item>
+		<item>1</item>
+		<item>@raw/s26_3</item>
+		<item>1</item>
+		<item>@raw/s26_4</item>
+		<item>10</item>
+		<item>@raw/s26_5</item>
+		<item>2</item>
+		<item>@raw/s26_6</item>
+		<item>2</item>
+		<item>@raw/s26_7</item>
+		<item>2</item>
+		<item>@raw/s26_8</item>
+		<item>15</item>
+		<item>@raw/s26_9</item>
+		<item>1</item>
+		<item>@raw/s26_10</item>
+		<item>1</item>
+	</array>
+	
+	<!-- s27 -->
+	<array name="s27Sequence">
+		<item>@raw/s27_1</item>
+		<item>2</item>
+		<item>@raw/s27_2</item>
+		<item>2</item>
+		<item>@raw/s27_3</item>
+		<item>2</item>
+		<item>@raw/s27_4</item>
+		<item>2</item>
+		<item>@raw/s27_5</item>
+		<item>2</item>
+		<item>@raw/s27_6</item>
+		<item>2</item>
+		<item>@raw/s27_7</item>
+		<item>2</item>
+		<item>@raw/s27_8</item>
+		<item>2</item>
+	</array>
+	
+	<!-- s28 -->
+	<array name="s28Sequence">
+		<item>@raw/s28_1</item>
+		<item>20</item>
+		<item>@raw/s28_2</item>
+		<item>15</item>
+		<item>@raw/s28_3</item>
+		<item>15</item>
+	</array>
+	
+	<!-- s30 -->
+    <array name="s30Sequence">
+        <item>@raw/s30_1</item>
+        <item>2</item>
+        <item>@raw/s30_2</item>
+        <item>2</item>
+        <item>@raw/s30_3</item>
+        <item>2</item>
+        <item>@raw/s30_4</item>
+        <item>2</item>
+		<item>@raw/s30_5</item>
+        <item>2</item>
+        <item>@raw/s30_6</item>
+        <item>2</item>
+        <item>@raw/s30_7</item>
+        <item>2</item>
+        <item>@raw/s30_8</item>
+        <item>2</item>
+    </array>
+	
+    <!-- s31 -->
+    <array name="s31Sequence">
+        <item>@raw/s31_1</item>
+        <item>20</item>
+        <item>@raw/s31_2</item>
+        <item>1</item>
+        <item>@raw/s31_3</item>
+        <item>1</item>
+        <item>@raw/s31_4</item>
+        <item>1</item>
+        <item>@raw/s31_5</item>
+        <item>1</item>
+        <item>@raw/s31_6</item>
+        <item>1</item>
+        <item>@raw/s31_7</item>
+        <item>1</item>
+        <item>@raw/s31_8</item>
+        <item>1</item>
+        <item>@raw/s31_9</item>
+        <item>1</item>
+        <item>@raw/s31_10</item>
+        <item>1</item>
+        <item>@raw/s31_11</item>
+        <item>1</item>
+        <item>@raw/s31_12</item>
+        <item>1</item>
+    </array>
+
+	<!-- s32 -->
+    <array name="s32Sequence">
+        <item>@raw/s32_1</item>
+        <item>3</item>
+        <item>@raw/s32_2</item>
+        <item>3</item>
+    </array>
+
+	<!-- s33 -->
+    <array name="s33Sequence">
+        <item>@raw/s33_1</item>
+        <item>3</item>
+        <item>@raw/s33_2</item>
+        <item>3</item>
+        <item>@raw/s33_3</item>
+        <item>3</item>
+        <item>@raw/s33_4</item>
+        <item>3</item>
+    </array>
+
+	<!-- s34 -->
+    <array name="s34Sequence">
+        <item>@raw/s34_1</item>
+        <item>15</item>
+        <item>@raw/s34_2</item>
+        <item>2</item>
+        <item>@raw/s34_3</item>
+        <item>2</item>
+        <item>@raw/s34_4</item>
+        <item>15</item>
+        <item>@raw/s34_5</item>
+        <item>2</item>
+        <item>@raw/s34_6</item>
+        <item>2</item>
+    </array>
+
+	<!-- s35 -->
+    <array name="s35Sequence">
+        <item>@raw/s35_1</item>
+        <item>2</item>
+        <item>@raw/s35_2</item>
+        <item>2</item>
+        <item>@raw/s35_3</item>
+        <item>2</item>
+        <item>@raw/s35_4</item>
+        <item>2</item>
+        <item>@raw/s35_5</item>
+        <item>2</item>
+        <item>@raw/s35_6</item>
+        <item>2</item>
+    </array>
+
+	<!-- s37 -->
+    <array name="s37Sequence">
+        <item>@raw/s37_1</item>
+        <item>3</item>
+        <item>@raw/s37_2</item>
+        <item>3</item>
+        <item>@raw/s37_3</item>
+        <item>3</item>
+        <item>@raw/s37_4</item>
+        <item>3</item>
+        <item>@raw/s37_5</item>
+        <item>3</item>
+        <item>@raw/s37_6</item>
+        <item>3</item>
+    </array>
+
+	<!-- s39 -->
+    <array name="s39Sequence">
+        <item>@raw/s39_1</item>
+        <item>1</item>
+        <item>@raw/s39_2</item>
+        <item>1</item>
+        <item>@raw/s39_3</item>
+        <item>1</item>
+        <item>@raw/s39_4</item>
+        <item>1</item>
+    </array>
+
+	<!-- s41 -->
+    <array name="s41Sequence">
+        <item>@raw/s41_1</item>
+        <item>3</item>
+        <item>@raw/s41_2</item>
+        <item>3</item>
+    </array>
+
+	<!-- s43 -->
+    <array name="s43Sequence">
+        <item>@raw/s43_1</item>
+        <item>10</item>
+        <item>@raw/s43_2</item>
+        <item>2</item>
+        <item>@raw/s43_3</item>
+        <item>2</item>
+        <item>@raw/s43_4</item>
+        <item>2</item>
+        <item>@raw/s43_5</item>
+        <item>10</item>
+        <item>@raw/s43_6</item>
+        <item>1</item>
+        <item>@raw/s43_7</item>
+        <item>1</item>
+        <item>@raw/s43_8</item>
+        <item>1</item>
+        <item>@raw/s43_9</item>
+        <item>1</item>
+        <item>@raw/s43_10</item>
+        <item>1</item>
+        <item>@raw/s43_11</item>
+        <item>1</item>
+        <item>@raw/s43_12</item>
+        <item>1</item>
+        <item>@raw/s43_13</item>
+        <item>10</item>
+    </array>
+
+	<!-- s66 -->
+    <array name="s66Sequence">
+        <item>@raw/s66_1</item>
+        <item>3</item>
+        <item>@raw/s66_2</item>
+        <item>3</item>
+        <item>@raw/s66_3</item>
+        <item>3</item>
+        <item>@raw/s66_4</item>
+        <item>3</item>
+    </array>
+
+	<!-- s69 -->
+    <array name="s69Sequence">
+        <item>@raw/s69_1</item>
+        <item>2</item>
+        <item>@raw/s69_2</item>
+        <item>2</item>
+        <item>@raw/s69_3</item>
+        <item>2</item>
+        <item>@raw/s69_4</item>
+        <item>2</item>
+        <item>@raw/s69_5</item>
+        <item>2</item>
+        <item>@raw/s69_6</item>
+        <item>2</item>
+    </array>
+
+	<!-- s70 -->
+    <array name="s70Sequence">
+        <item>@raw/s70_1</item>
+        <item>20</item>
+        <item>@raw/s70_2</item>
+        <item>2</item>
+        <item>@raw/s70_3</item>
+        <item>2</item>
+        <item>@raw/s70_4</item>
+        <item>2</item>
+        <item>@raw/s70_5</item>
+        <item>2</item>
+        <item>@raw/s70_6</item>
+        <item>2</item>
+        <item>@raw/s70_7</item>
+        <item>2</item>
+        <item>@raw/s70_8</item>
+        <item>2</item>
+        <item>@raw/s70_9</item>
+        <item>1</item>
+        <item>@raw/s70_10</item>
+        <item>1</item>
+        <item>@raw/s70_11</item>
+        <item>1</item>
+        <item>@raw/s70_12</item>
+        <item>1</item>
+        <item>@raw/s70_13</item>
+        <item>1</item>
+        <item>@raw/s70_14</item>
+        <item>1</item>
+        <item>@raw/s70_15</item>
+        <item>1</item>
+        <item>@raw/s70_16</item>
+        <item>1</item>
+        <item>@raw/s70_17</item>
+        <item>1</item>
+        <item>@raw/s70_18</item>
+        <item>1</item>
+        <item>@raw/s70_19</item>
+        <item>1</item>
+        <item>@raw/s70_20</item>
+        <item>20</item>
+    </array>
+
+	<!-- s71 -->
+    <array name="s71Sequence">
+        <item>@raw/s71_1</item>
+        <item>15</item>
+        <item>@raw/s71_2</item>
+        <item>6</item>
+        <item>@raw/s71_3</item>
+        <item>6</item>
+        <item>@raw/s71_4</item>
+        <item>6</item>
+        <item>@raw/s71_5</item>
+        <item>6</item>
+        <item>@raw/s71_6</item>
+        <item>6</item>
+    </array>
+
+	<!-- nyu -->
+    <array name="nyuSequence">
+        <item>@raw/nyu_1</item>
+        <item>6</item>
+        <item>@raw/nyu_2</item>
+        <item>6</item>
+        <item>@raw/nyu_3</item>
+        <item>6</item>
+        <item>@raw/nyu_4</item>
+        <item>6</item>
+    </array>
+    
+    <!-- loveyou -->
+    <array name="loveyouSequence">
+        <item>@raw/loveyou_1</item>
+        <item>3</item>
+        <item>@raw/loveyou_2</item>
+        <item>3</item>
+        <item>@raw/loveyou_3</item>
+        <item>3</item>
+        <item>@raw/loveyou_4</item>
+        <item>3</item>
+        <item>@raw/loveyou_5</item>
+        <item>3</item>
+        <item>@raw/loveyou_6</item>
+        <item>3</item>
+        <item>@raw/loveyou_7</item>
+        <item>3</item>
+        <item>@raw/loveyou_8</item>
+        <item>3</item>
+        <item>@raw/loveyou_9</item>
+        <item>3</item>
+        <item>@raw/loveyou_10</item>
+        <item>3</item>
+        <item>@raw/loveyou_11</item>
+        <item>3</item>
+        <item>@raw/loveyou_12</item>
+        <item>3</item>
+        <item>@raw/loveyou_13</item>
+        <item>3</item>
+        <item>@raw/loveyou_14</item>
+        <item>3</item>
+        <item>@raw/loveyou_15</item>
+        <item>3</item>
+        <item>@raw/loveyou_16</item>
+        <item>3</item>
+        <item>@raw/loveyou_17</item>
+        <item>3</item>
+        <item>@raw/loveyou_18</item>
+        <item>3</item>
+        <item>@raw/loveyou_19</item>
+        <item>3</item>
+        <item>@raw/loveyou_20</item>
+        <item>3</item>
+        <item>@raw/loveyou_21</item>
+        <item>3</item>
+        <item>@raw/loveyou_22</item>
+        <item>3</item>
+        <item>@raw/loveyou_23</item>
+        <item>3</item>
+        <item>@raw/loveyou_24</item>
+        <item>3</item>
+        <item>@raw/loveyou_25</item>
+        <item>3</item>
+        <item>@raw/loveyou_26</item>
+        <item>3</item>
+        <item>@raw/loveyou_27</item>
+        <item>3</item>
+        <item>@raw/loveyou_28</item>
+        <item>3</item>
+        <item>@raw/loveyou_29</item>
+        <item>3</item>
+        <item>@raw/loveyou_30</item>
+        <item>3</item>
+        <item>@raw/loveyou_31</item>
+        <item>3</item>
+        <item>@raw/loveyou_32</item>
+        <item>3</item>
+        <item>@raw/loveyou_33</item>
+        <item>3</item>
+    </array>
+    
+    <!-- hapoelparty -->
+	<array name="hapoelSequence">
+		<item>@raw/hapoelparty_1</item>
+		<item>2</item>
+		<item>@raw/hapoelparty_2</item>
+		<item>2</item>
+		<item>@raw/hapoelparty_3</item>
+		<item>2</item>
+		<item>@raw/hapoelparty_4</item>
+		<item>2</item>
+	</array>
+	
+	<!-- play -->
+	<array name="playSequence">
+	    <item>@raw/play_1</item>
+	    <item>2</item>
+	    <item>@raw/play_2</item>
+	    <item>2</item>
+	    <item>@raw/play_3</item>
+	    <item>2</item>
+	    <item>@raw/play_4</item>
+	    <item>2</item>
+	    <item>@raw/play_5</item>
+	    <item>2</item>
+	    <item>@raw/play_6</item>
+	    <item>2</item>
+	    <item>@raw/play_7</item>
+	    <item>2</item>
+	    <item>@raw/play_8</item>
+	    <item>2</item>
+	    <item>@raw/play_9</item>
+	    <item>2</item>
+	    <item>@raw/play_10</item>
+	    <item>2</item>
+	    <item>@raw/play_11</item>
+	    <item>2</item>
+	    <item>@raw/play_12</item>
+	    <item>2</item>
+	    <item>@raw/play_13</item>
+	    <item>2</item>
+	    <item>@raw/play_14</item>
+	    <item>2</item>
+	    <item>@raw/play_15</item>
+	    <item>2</item>
+	    <item>@raw/play_16</item>
+	    <item>2</item>
+	    <item>@raw/play_17</item>
+	    <item>2</item>
+	    <item>@raw/play_18</item>
+	    <item>2</item>
+	    <item>@raw/play_19</item>
+	    <item>2</item>
+	    <item>@raw/play_20</item>
+	    <item>2</item>
+	    <item>@raw/play_21</item>
+	    <item>2</item>
+	    <item>@raw/play_22</item>
+	    <item>2</item>
+	    <item>@raw/play_23</item>
+	    <item>2</item>
+	    <item>@raw/play_24</item>
+	    <item>2</item>
+	    <item>@raw/play_25</item>
+	    <item>2</item>
+	    <item>@raw/play_26</item>
+	    <item>2</item>
+	</array>
+</resources>

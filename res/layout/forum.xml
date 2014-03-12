@@ -1,0 +1,78 @@
+<com.forum.jvcreader.widgets.SwipeableScrollViewer xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ssv="http://schemas.android.com/apk/res/com.forum.jvcreader" android:id="@+id/forumSwipeableScrollViewer" android:layout_width="match_parent" android:layout_height="match_parent" ssv:default_screen="0">
+    <ScrollView android:layout_width="fill_parent" android:fadingEdge="none" android:id="@+id/forumScrollView" android:layout_height="fill_parent" android:paddingLeft="4dp" android:paddingRight="4dp">
+        <LinearLayout android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:orientation="vertical" android:layout_height="match_parent">
+            <LinearLayout android:layout_width="match_parent" android:id="@+id/forumLayout" android:orientation="vertical" android:layout_height="match_parent">
+                <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/forumLayoutPanel" android:orientation="vertical" android:layout_weight="1">
+                    <TextView android:minHeight="48dp" android:id="@+id/forumNameTextView" android:textAppearance="?android:attr/textAppearanceMedium" android:textStyle="bold" android:gravity="center" android:text="@string/genericLoading" android:layout_height="wrap_content" android:layout_width="match_parent"></TextView>
+                    <View android:layout_width="match_parent" android:layout_height="1px" android:background="?android:attr/listDivider" />
+                    <LinearLayout android:layout_height="wrap_content" android:minHeight="48dp" android:layout_width="match_parent" android:id="@+id/forumPageButtonsLayout">
+                        <Button android:onClick="forumFirstPageButtonClick" android:id="@+id/forumFirstPageButton" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="wrap_content" android:background="@android:drawable/list_selector_background" android:textColor="?android:attr/textColorPrimary"></Button>
+                        <View android:layout_width="1px" android:layout_height="match_parent" android:background="?android:attr/listDivider" />
+                        <Button android:onClick="forumPreviousPageButtonClick" android:id="@+id/forumPreviousPageButton" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="wrap_content" android:background="@android:drawable/list_selector_background" android:textColor="?android:attr/textColorPrimary"></Button>
+                        <View android:layout_width="1px" android:layout_height="match_parent" android:background="?android:attr/listDivider" />
+                        <Button android:onClick="forumNextPageButtonClick" android:id="@+id/forumNextPageButton" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="wrap_content" android:background="@android:drawable/list_selector_background" android:textColor="?android:attr/textColorPrimary"></Button>
+                    </LinearLayout>
+                    <View android:layout_width="match_parent" android:layout_height="1px" android:background="?android:attr/listDivider" />
+                    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:minHeight="48dp">
+                        <Button
+                                android:id="@+id/forumSearchButton"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:onClick="forumSearchButtonClick"
+                                android:text="@string/genericSearch"
+                                android:background="@android:drawable/list_selector_background"
+                                android:textColor="?android:attr/textColorPrimary">
+                        </Button>
+                        <View android:layout_width="1px" android:layout_height="match_parent" android:background="?android:attr/listDivider" />
+                        <Button android:layout_weight="1" android:onClick="forumRefreshButtonClick" android:id="@+id/forumRefreshButton" android:textStyle="bold" android:layout_height="match_parent" android:layout_width="0dp" android:text="@string/genericRefresh" android:background="@android:drawable/list_selector_background" android:textColor="?android:attr/textColorPrimary"></Button>
+                    </LinearLayout>
+                    <FrameLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:background="@drawable/jvc_error_box" android:visibility="gone" android:padding="10dp" android:id="@+id/forumErrorLayout" android:layout_margin="5dp" android:layout_weight="1">
+                        <TextView android:id="@+id/forumErrorTextView" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="@color/jvcAdminPseudo" android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+                    </FrameLayout>
+                </LinearLayout>
+                <View android:layout_width="match_parent" android:layout_height="1px" android:background="?android:attr/listDivider" />
+            </LinearLayout>
+            <View android:layout_width="match_parent" android:layout_height="1px" android:background="?android:attr/listDivider" />
+            <LinearLayout android:layout_height="wrap_content" android:minHeight="48dp" android:layout_width="match_parent">
+                <Button android:onClick="forumFirstPageButtonClick" android:id="@+id/forumFirstPageBottomButton" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="wrap_content" android:background="@android:drawable/list_selector_background" android:textColor="?android:attr/textColorPrimary"></Button>
+                <View android:layout_width="1px" android:layout_height="match_parent" android:background="?android:attr/listDivider" />
+                <Button android:onClick="forumPreviousPageButtonClick" android:id="@+id/forumPreviousPageBottomButton" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="wrap_content" android:background="@android:drawable/list_selector_background" android:textColor="?android:attr/textColorPrimary"></Button>
+                <View android:layout_width="1px" android:layout_height="match_parent" android:background="?android:attr/listDivider" />
+                <Button android:onClick="forumNextPageButtonClick" android:id="@+id/forumNextPageBottomButton" android:layout_weight="1" android:layout_height="match_parent" android:layout_width="wrap_content" android:background="@android:drawable/list_selector_background" android:textColor="?android:attr/textColorPrimary"></Button>
+            </LinearLayout>
+            <View android:layout_width="match_parent" android:layout_height="1px" android:background="?android:attr/listDivider" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:paddingTop="8dp">
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:gravity="center_vertical"
+                          android:minHeight="32dp"
+                          android:paddingLeft="4dp"
+                          android:textAppearance="?android:attr/textAppearanceSmall"
+                          android:text="@string/createTopicSeparator"
+                          android:textColor="@android:color/darker_gray"
+                          android:textStyle="bold"
+                          android:id="@+id/forumCreateTopicTextView" />
+                <View android:layout_width="wrap_content"
+                      android:layout_height="2px"
+                      android:background="@android:color/darker_gray" />
+            </LinearLayout>
+            <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical" android:paddingLeft="4dp" android:paddingRight="4dp" android:paddingTop="5dp">
+                <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="5dp" android:layout_marginBottom="5dp">
+                    <TextView android:text="@string/topicSubject" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+                    <EditText android:textSize="14sp" android:typeface="sans" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginLeft="10dp" android:inputType="textShortMessage|textCapSentences" android:maxLength="40" android:id="@+id/forumReplyFormSubjectEditText"></EditText>
+                </LinearLayout>
+                <EditText android:layout_height="wrap_content" android:minHeight="120dp" android:textSize="14sp" android:typeface="sans" android:layout_width="match_parent" android:inputType="textMultiLine|textCapSentences" android:layout_marginBottom="5dp" android:gravity="left" android:id="@+id/forumReplyFormContentEditText"></EditText>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <CheckBox android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/postFromMobile" android:id="@+id/forumReplyFormPostAsMobileCheckBox"></CheckBox>
+                    <Button android:text="@string/smileys" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginLeft="10dp" android:onClick="forumReplyFormSmileysButtonClick"></Button>
+                </LinearLayout>
+                <CheckBox android:text="@string/includeSignature" android:id="@+id/forumReplyFormIncludeSignatureCheckBox" android:layout_width="match_parent" android:layout_height="wrap_content"></CheckBox>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginBottom="5dp">
+                    <Button android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="0dp" android:onClick="forumReplyFormPreviewButtonClick" android:text="@string/previewTopic"></Button>
+                    <Button android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="0dp" android:onClick="forumReplyFormSendButtonClick" android:text="@string/genericCreate"></Button>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</com.forum.jvcreader.widgets.SwipeableScrollViewer>

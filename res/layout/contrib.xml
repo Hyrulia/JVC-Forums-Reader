@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/contrib_background" android:layout_width="match_parent" android:layout_height="180dp" android:minHeight="180dp" android:padding="10dp" android:orientation="horizontal">
+    <com.blundell.tut.LoaderImageView android:id="@+id/contribLoaderImageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="75px" android:minWidth="75px" android:layout_gravity="center_horizontal"></com.blundell.tut.LoaderImageView>
+    <LinearLayout android:layout_height="match_parent" android:orientation="vertical" android:layout_width="match_parent" android:layout_marginLeft="10dp">
+        <TextView android:layout_height="wrap_content" android:textStyle="bold" android:textColor="@color/jvcAdminPseudo" android:textSize="16sp" android:id="@+id/contribTypeTextView" android:layout_width="wrap_content"></TextView>
+        <View android:background="@color/darkGrey" android:layout_height="1px" android:layout_width="match_parent" android:layout_marginTop="5dp" android:layout_marginBottom="5dp"></View>
+    	<TextView android:layout_height="wrap_content" android:textColor="#000" android:textSize="14sp" android:id="@+id/contribTitleTextView" android:layout_width="wrap_content"></TextView>
+    	<TextView android:layout_height="wrap_content" android:textColor="#000" android:textSize="12sp" android:id="@+id/contribTextView" android:layout_width="wrap_content" android:layout_marginTop="2dp"></TextView>
+    	<TextView android:layout_height="wrap_content" android:textColor="#000" android:layout_marginTop="2dp" android:layout_width="wrap_content" android:textSize="12sp" android:id="@+id/contribSuiteTextView"></TextView>
+    </LinearLayout>
+	
+</LinearLayout>

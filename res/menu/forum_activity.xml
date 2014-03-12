@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/optionsMenuFirstPage" android:title="@string/optionsMenuFirstPage"></item>
+	<item android:id="@+id/optionsMenuPreviousPage" android:title="@string/optionsMenuPreviousPage"></item>
+	<item android:id="@+id/optionsMenuNextPage" android:title="@string/optionsMenuNextPage"></item>
+	<item android:id="@+id/optionsMenuRefresh" android:title="@string/genericRefresh"></item>
+	<item android:id="@+id/optionsMenuFavAction" android:title="@string/addToFavoriteForums"></item>
+	<item android:id="@+id/optionsMenuCopyForumLink" android:title="@string/optionsMenuCopyForumLink"></item>
+	<item android:id="@+id/optionsMenuSeeKickInterface" android:title="@string/optionsMenuSeeKickInterface"></item>
+</menu>
+

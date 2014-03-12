@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/optionsMenuCheckTopics" android:title="@string/optionsMenuCheckTopics"></item>
+	<item android:id="@+id/optionsMenuEditTopics" android:title="@string/optionsMenuEditTopics"></item>
+    <item android:id="@+id/optionsMenuAbortChecking" android:title="@string/optionsMenuAbortChecking"></item>
+</menu>

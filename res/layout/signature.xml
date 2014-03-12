@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingLeft="4dp" android:paddingRight="4dp">
+	<ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+		<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingTop="8dp">
+			<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical">
+				<TextView android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:gravity="center_vertical"
+				    android:minHeight="32dp"
+				    android:paddingLeft="4dp"
+				    android:textAppearance="?android:attr/textAppearanceSmall"
+				    android:text="@string/prefsSignatureSeparator"
+				    android:textColor="@android:color/darker_gray"
+				    android:textStyle="bold" />
+				<View android:layout_width="wrap_content"
+				    android:layout_height="2px"
+				    android:background="@android:color/darker_gray" />
+			</LinearLayout>
+			<LinearLayout android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:orientation="vertical" android:layout_height="match_parent">
+				<CheckBox android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginBottom="5dp" android:text="@string/signatureEnableCheckBox" android:id="@+id/signatureUseSignatureCheckBox"></CheckBox>
+				<EditText android:layout_height="120dp" android:textSize="12sp" android:typeface="sans" android:id="@+id/signatureEditText" android:layout_width="match_parent" android:inputType="textMultiLine|textCapSentences" android:gravity="top" android:layout_marginBottom="5dp"></EditText>
+				<Button android:layout_height="wrap_content" android:id="@+id/signaturePreviewButton" android:layout_width="match_parent" android:text="@string/signaturePreview"></Button>
+				<RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/signatureAppendAtStartRadioButton" android:text="@string/signatureAppendAtStart"></RadioButton>
+				<RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/signatureAppendAtEndRadioButton" android:text="@string/signatureAppendAtEnd"></RadioButton>
+				<CheckBox android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/signatureIncludeByDefault" android:id="@+id/signatureIncludeByDefaultCheckBox" android:checked="true"></CheckBox>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</FrameLayout>

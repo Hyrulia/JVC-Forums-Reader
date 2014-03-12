@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/contextMenuShowProfile" android:title="@string/contextMenuShowProfile" />
+	<item android:id="@+id/contextMenuDeletePost" android:title="@string/contextMenuDeletePost" />
+	<item android:id="@+id/contextMenuWarnAdmin" android:title="@string/contextMenuWarnAdmin" />
+	<item android:id="@+id/contextMenuQuoteAuthor" android:title="@string/contextMenuQuoteAuthor" />
+	<item android:id="@+id/contextMenuQuotePost" android:title="@string/contextMenuQuotePost" />
+	<item android:id="@+id/contextMenuCopyPost" android:title="@string/contextMenuCopyPost" />
+	<item android:id="@+id/contextMenuCopyPermanentLink" android:title="@string/contextMenuCopyPermanentLink" />
+	<item android:id="@+id/contextMenuIgnorePseudo" android:title="@string/contextMenuIgnorePseudo" />
+	<item android:id="@+id/contextMenuKickPseudo" android:title="@string/contextMenuKickPseudo" />
+</menu>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+          android:drawable="@drawable/jvc_smiley_clicked_box" /> <!-- pressed -->
+    <item android:drawable="@drawable/dummy_box" /> <!-- default -->
+</selector>

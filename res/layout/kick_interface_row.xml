@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="48dp">
+    
+    <FrameLayout
+        android:id="@+id/kirImageLayout"
+        android:layout_width="wrap_content"
+        android:minWidth="48dp"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:layout_gravity="center"
+        android:background="@android:drawable/list_selector_background">
+        
+		<ImageView
+	    			android:id="@+id/kirImageView"
+                    android:layout_width="32px"
+                    android:layout_height="32px"
+                    android:layout_gravity="center" />
+		
+	</FrameLayout>
+                
+                <View android:layout_width="1px" android:layout_height="match_parent" android:background="?android:attr/listDivider" />
+
+                <TextView
+                    android:id="@+id/kirPseudoTextView"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+        			android:background="@android:drawable/list_selector_background"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                
+                <View android:layout_width="1px" android:layout_height="match_parent" android:background="?android:attr/listDivider" />
+
+                <TextView
+                    android:id="@+id/kirReasonTextView"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+        			android:background="@android:drawable/list_selector_background"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                
+                <View android:layout_width="1px" android:layout_height="match_parent" android:background="?android:attr/listDivider" />
+
+                <TextView
+                    android:id="@+id/kirTotalKicksTextView"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+</TableRow>

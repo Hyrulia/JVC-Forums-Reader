@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/pmTopicRefreshButton"
+            android:onClick="pmTopicRefreshButtonClick"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/genericRefresh"
+            android:background="@android:drawable/list_selector_background"
+		    android:textColor="?android:attr/textColorPrimary"/>
+		<View android:id="@+id/pmTopicActionButtonSeparator" android:layout_width="1px" android:layout_height="48dp" android:background="?android:attr/listDivider" />
+        <Button
+            android:id="@+id/pmTopicActionButton"
+            android:onClick="pmTopicActionButtonClick"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/pmTopicActionQuit"
+            android:background="@android:drawable/list_selector_background"
+		    android:textColor="?android:attr/textColorPrimary" />
+
+    </LinearLayout>
+    <View android:layout_width="match_parent" android:layout_height="1px" android:background="?android:attr/listDivider" />
+    
+        <ScrollView
+            android:id="@+id/pmTopicMainView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fadingEdge="none" >
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content" >
+                				
+                <TextView
+                    android:id="@+id/pmTopicParticipatingPseudosTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:lineSpacingExtra="5dp"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:textSize="14sp" />
+                <View android:id="@+id/pmTopicSeeAllMessagesSeparator" android:layout_width="match_parent" android:layout_height="1px" android:background="?android:attr/listDivider" />
+                <TextView
+			        android:id="@+id/pmTopicSeeAllPreviousMessagesTextView"
+			        android:onClick="pmTopicSeeAllPreviousMessagesClick"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:minHeight="48dp"
+			        android:clickable="true"
+			        android:background="@android:drawable/list_selector_background"
+			        android:gravity="center"
+			        android:textColor="?android:attr/textColorPrimary"
+			        android:text="@string/pmTopicSeeAllPreviousMessages"
+			        android:textSize="16sp" android:visibility="gone" />
+				<View android:id="@+id/pmTopicSeeMessagesSeparator" android:layout_width="match_parent" android:layout_height="1px" android:background="?android:attr/listDivider" />
+			    <TextView
+			        android:id="@+id/pmTopicSeePreviousMessagesTextView"
+			        android:onClick="pmTopicSeePreviousMessagesClick"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:clickable="true"
+			        android:background="@android:drawable/list_selector_background"
+			        android:gravity="center"
+			        android:minHeight="48dp"
+			        android:textColor="?android:attr/textColorPrimary"
+			        android:textSize="16sp" android:visibility="gone" />
+            	
+                <LinearLayout
+                	android:id="@+id/pmTopicPostListLayout"
+                	android:layout_width="match_parent"
+                	android:orientation="vertical"
+                	android:layout_height="match_parent">
+                </LinearLayout>
+                <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/pmTopicReplyLayout" />
+            </LinearLayout>
+            
+        </ScrollView>
+</LinearLayout>

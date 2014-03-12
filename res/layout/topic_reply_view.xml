@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingLeft="2dp" android:paddingRight="2dp">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:id="@+id/topicReplyFormLayout">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical">
+			<TextView android:id="@+id/topicReplyFormSeparatorTextView"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="center_vertical"
+			    android:minHeight="32dp"
+			    android:paddingLeft="4dp"
+			    android:textAppearance="?android:attr/textAppearanceSmall"
+			    android:text="@string/answerSeparator"
+			    android:textColor="@android:color/darker_gray"
+			    android:textStyle="bold" />
+			<View android:layout_width="wrap_content"
+			    android:layout_height="2px"
+			    android:background="@android:color/darker_gray" />
+		</LinearLayout>
+        <LinearLayout android:layout_marginTop="5dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="0dp" android:text="@string/previewPost" android:id="@+id/topicReplyFormPreviewButton"></Button>
+
+            <Button
+                android:id="@+id/topicReplyFormSmileysButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/smileys" >
+			</Button>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/topicReplyFormEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="120dp"
+            android:layout_marginTop="5dp"
+            android:gravity="top"
+            android:inputType="textMultiLine|textCapSentences"
+            android:textSize="14sp"
+            android:typeface="sans" >
+		</EditText>
+        <CheckBox android:layout_height="wrap_content" android:layout_width="match_parent" android:text="@string/includeSignature" android:id="@+id/topicReplyFormIncludeSignatureCheckBox"></CheckBox>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/topicReplyFormPostAsMobileCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/postFromMobile"
+                android:layout_marginRight="5dp">
+			</CheckBox>
+
+            <Button
+                android:id="@+id/topicReplyFormSendButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:text="@string/genericSend" >
+			</Button>
+    	</LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    	<Button
+    	    android:id="@+id/topicRefreshButton"
+    	    android:layout_width="0dp"
+    	    android:layout_height="wrap_content"
+    	    android:layout_weight="1"
+    	    android:text="@string/genericRefresh"
+    	    android:textStyle="bold" >
+		</Button>
+
+        <Button
+            android:id="@+id/topicReplyButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/genericAnswer" >
+		</Button>
+    </LinearLayout>
+</LinearLayout>

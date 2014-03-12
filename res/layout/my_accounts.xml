@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="4dp" android:paddingRight="4dp" android:paddingTop="8dp">
+	<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+		<TextView android:text="@string/myAccountsTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_vertical" android:minHeight="32dp" android:paddingLeft="4dp" android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@android:color/darker_gray" android:textStyle="bold" />
+		<View android:layout_width="wrap_content" android:layout_height="2px" android:background="@android:color/darker_gray" />
+	</LinearLayout>
+    
+    <ListView
+        android:id="@+id/myAccountsListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1" >
+
+    </ListView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="@string/addAccount"
+        android:onClick="myAccountsAddAccountButtonClick"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

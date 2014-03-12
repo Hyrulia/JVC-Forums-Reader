@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/optionsMenuCheckPrivateMessages" android:title="@string/optionsMenuCheckPrivateMessages" />
+	<item android:id="@+id/optionsMenuCheckUpdatedTopics" android:title="@string/optionsMenuCheckUpdatedTopics" />
+	<item android:id="@+id/optionsMenuCheckAll" android:title="@string/optionsMenuCheckAll" />
+</menu>
